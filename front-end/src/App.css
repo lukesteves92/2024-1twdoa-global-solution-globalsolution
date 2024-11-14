@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header {
+    background: #00b7fc;
+    color: white;
+    padding: 20px;
+  }
+  
+  .articles-section, .feedback-section {
+    padding: 20px;
+  }
+  
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .App-footer {
+    background: #00b7fc;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
